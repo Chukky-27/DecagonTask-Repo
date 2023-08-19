@@ -82,7 +82,7 @@
             queue.Enqueue(20);
             queue.Enqueue(25);
             queue.Enqueue(30);
-
+            //jgjhgkho
             Console.WriteLine("  Queue is empty = " + queue.IsEmpty());
             Console.WriteLine();
 
