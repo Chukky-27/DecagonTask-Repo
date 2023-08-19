@@ -67,7 +67,7 @@
 
             Queue<int> queue = new Queue<int>();
 
-            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            Console.ForegroundColor = ConsoleColor.DarkRed;
             Console.WriteLine("  |------------|");
             Console.WriteLine("  |   QUEUE    |");
             Console.WriteLine("  |------------|");
@@ -82,7 +82,7 @@
             queue.Enqueue(20);
             queue.Enqueue(25);
             queue.Enqueue(30);
-            //jgjhgkho
+            
             Console.WriteLine("  Queue is empty = " + queue.IsEmpty());
             Console.WriteLine();
 
